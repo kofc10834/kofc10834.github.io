@@ -1,0 +1,86 @@
+---
+layout: default
+title: Newsletter Archive
+---
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Newsletter Archive</h3>
+      <p>Click on the year and then choose the month you want to view</p>
+  </div>
+  <div class="panel-body">
+    
+
+<div class="btn-group" role="group">
+<div class="btn-group" role="group">
+    <button id="btnGroupDrop2" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      2011
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        
+        {%for pdf in site.data.bulletins%}
+                {%if pdf.path contains 'bulletins/2011'%}
+                <a href="{{site.baseurl}}{{pdf.path}}">{{pdf.name}}</a><br>
+              {%endif%}
+                {%endfor%}
+            </div>
+        </div>
+
+    <div class="btn-group" role="group">
+    <button id="btnGroupDrop2" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      2012
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        
+        {%for pdf in site.data.bulletins%}
+                {%if pdf.path contains 'bulletins/2012'%}
+                <a href="{{site.baseurl}}{{pdf.path}}">{{pdf.name}}</a><br>
+              {%endif%}
+                {%endfor%}
+            </div>
+        </div>
+
+    <div class="btn-group" role="group">
+    <button id="btnGroupDrop2" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      2013
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        
+        {%for pdf in site.data.bulletins%}
+                {%if pdf.path contains 'bulletins/2013'%}
+                <a href="{{site.baseurl}}{{pdf.path}}">{{pdf.name}}</a><br>
+              {%endif%}
+                {%endfor%}
+            </div>
+        </div>
+    
+<div class="btn-group" role="group">
+    <button id="btnGroupDrop2" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      2014
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        
+        {%for pdf in site.data.bulletins%}
+                {%if pdf.path contains 'bulletins/2014'%}
+                <a href="{{site.baseurl}}{{pdf.path}}">{{pdf.name}}</a><br>
+              {%endif%}
+                {%endfor%}
+            </div>
+        </div>
+    <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      2015
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        
+        {%for pdf in site.data.bulletins%}
+                {%if pdf.path contains 'bulletins/2015'%}
+                <a href="{{site.baseurl}}{{pdf.path}}">{{pdf.name}}</a><br>
+              {%endif%}
+                {%endfor%}
+            </div>
+    </div>
+    
+    </div>
+       </div>
+</div>
