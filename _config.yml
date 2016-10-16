@@ -13,7 +13,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: St. Francis de Sales Knights of Columbus Council 10834
-email: your-email@domain.com
+email: administrator@lansingkofc.org
 description: > # this means to ignore newlines until "baseurl:"
   The Knights of Columbus is a fraternal organization for Catholic gentlemen.
 baseurl: "" # the subpath of your site, e.g. /blog
