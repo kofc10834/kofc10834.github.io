@@ -13,7 +13,7 @@ layout: default
 
 <h2>Current Year's Newsletter</h2>
   {%for pdf in site.data.bulletins %}
-    {%if pdf.path contains 'bulletins/2017'%}
+    {%if pdf.path contains 'bulletins/2021'%}
     <p><a href="{{site.baseurl}}{{pdf.path}}">{{pdf.name}}</a></p>
   {%endif%}
     {%endfor%}
